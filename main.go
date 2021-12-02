@@ -12,14 +12,16 @@ func main() {
 
 func getApp() components.App {
 	app := components.App{}
-	app.Name = "hello-frog"
-	app.Description = "Easily greet anyone."
-	app.Version = "v0.1.1"
+	app.Name = "JFrogTrafficMonitor"
+	app.Description = "Monitors all traffic of the repositories "
+	app.Version = "v0.0.1"
 	app.Commands = getCommands()
 	return app
 }
-
 func getCommands() []components.Command {
-	return []components.Command{
-		commands.GetHelloCommand()}
+        return []components.Command{
+                commands.TopNDownloads(),
+                commands.GetTotalSum(),  
+                commands.TopNUploads(),           
+}
 }
