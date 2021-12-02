@@ -23,7 +23,17 @@ func top20downloads() string {
 	fmt.Println(string(cmd))
 	return string(cmd)
 }
+func top20uploads() string {
+	cmd, err := exec.Command("/bin/sh", "top20uploads.sh").Output()
+	if err != nil {
+		fmt.Printf("error %s", err)
+	}
+	fmt.Println("Noofuploads repositorypath Sizeoftheartifact")
+	fmt.Println(string(cmd))
+	return string(cmd)
+}
 func main() {
 	top20downloads()
 	sumofdatausage()
+	top20uploads()
 }
