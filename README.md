@@ -33,11 +33,11 @@ VERSION:
    
 COMMANDS:
    
-    top20d, Top20D   This command results in the Top 20 downloads
+    top20d, Top20D   This command results in the Top 20 downloads with no. of downloads, repository path and artifact size
    
     totalsum, TotalSum  This command results in the sum of data usage for the traffic logs present in the current directory.(total data tranfer)
    
-    top20u, Top20U     This command results in the Top 20 uploads
+    top20u, Top20U     This command results in the Top 20 uploads with no. of uploads, repository path and artifact size
    
      help, h          Shows a list of commands or help for one command
    
