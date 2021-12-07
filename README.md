@@ -18,7 +18,7 @@ Uninstalling a plugin
 `$ jfrog plugin uninstall JFrogTrafficMonitor `
 
 Prerequisities:-
-In the current directory, we need to have artifactory traffic logs usually in the format (artifactory-traffic.<epochtime>.log and artifactory-xray-traffic.<epochtime.log)
+In the current directory, we need to have artifactory traffic logs usually in the format (artifactory-traffic.<epochtime>.log and artifactory-xray-traffic.<epochtime>.log)
 
 ## Usage
 ### Commands
