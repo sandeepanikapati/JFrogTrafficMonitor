@@ -7,15 +7,18 @@ This README shows the expected structure of your plugin's README.
 ## Installation with JFrog CLI
 Installing the latest version:
 
-`$ jfrog plugin install hello-frog`
+`$ jfrog plugin install JFrogTrafficMonitor 
 
 Installing a specific version:
 
-`$ jfrog plugin install hello-frog@version`
+`$ jfrog plugin install JFrogTrafficMonitor@version
 
 Uninstalling a plugin
 
-`$ jfrog plugin uninstall hello-frog`
+`$ jfrog plugin uninstall JFrogTrafficMonitor `
+
+Prerequisities:-
+In the current directory, we need to have artifactory traffic logs usually in the format (artifactory-traffic.<epochtime>.log and artifactory-xray-traffic.<epochtime.log)
 
 ## Usage
 ### Commands
