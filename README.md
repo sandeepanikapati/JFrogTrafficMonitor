@@ -1,8 +1,7 @@
-# hello-frog
+# JFrogTrafficMonitor
 
 ## About this plugin
-This plugin is a template and a functioning example for a basic JFrog CLI plugin. 
-This README shows the expected structure of your plugin's README.
+This plugin will show top20 uploads, top20 downloads and sum of the data usage. 
 
 ## Installation with JFrog CLI
 Installing the latest version:
@@ -17,7 +16,7 @@ Uninstalling a plugin
 
 `$ jfrog plugin uninstall JFrogTrafficMonitor `
 
-Prerequisities:-
+**Prerequisities**:-
 In the current directory, we need to have artifactory traffic logs usually in the format (artifactory-traffic.<epochtime>.log and artifactory-xray-traffic.<epochtime>.log)
 
 ## Usage
