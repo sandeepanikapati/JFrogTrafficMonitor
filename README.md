@@ -22,25 +22,26 @@ In the current directory, we need to have artifactory traffic logs usually in th
 
 ## Usage
 ### Commands
-* hello
-    - Arguments:
-        - addressee - The name of the person you would like to greet.
-    - Flags:
-        - shout: Makes output uppercase **[Default: false]**
-        - repeat: Greets multiple times **[Default: 1]**
-    - Example:
-    ```
-  $ jfrog hello-frog hello world --shout --repeat=2
-  
-  NEW GREETING: HELLO WORLD!
-  NEW GREETING: HELLO WORLD!
-  ```
+jfrog JFrogTrafficMonitor 
+NAME:
+   JFrogTrafficMonitor - Monitors all traffic of the repositories 
 
-### Environment variables
-* HELLO_FROG_GREET_PREFIX - Adds a prefix to every greet **[Default: New greeting: ]**
-
-## Additional info
-None.
+USAGE:
+   JFrogTrafficMonitor [global options] command [command options] [arguments...]
+   
+VERSION:
+   v0.0.1
+   
+COMMANDS:
+   top20d, Top20D      This command results in the Top 20 downloads
+   totalsum, TotalSum  This command results in the Top 20 downloads
+   top20u, Top20U      This command results in the Top 20 uploads
+   help, h             Shows a list of commands or help for one command
+   
+GLOBAL OPTIONS:
+   --help, -h     show help
+   --version, -v  print the version
+   
 
 ## Release Notes
 The release notes are available [here](RELEASE.md).
