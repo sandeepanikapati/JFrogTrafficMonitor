@@ -22,6 +22,8 @@ In the current directory, we need to have artifactory traffic logs usually in th
 ## Usage
 ### Commands
 jfrog JFrogTrafficMonitor <command>
+
+
 NAME:
    JFrogTrafficMonitor - Monitors all traffic of the repositories 
 
